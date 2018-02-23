@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
                 try
                 {
-                    String last = response.getString("last");
+                    String last = response.getString("last");  
                     Log.d(TAG, "onSuccess: bid is: " + last);
                     mPriceTextView.setText(last);
                 }
